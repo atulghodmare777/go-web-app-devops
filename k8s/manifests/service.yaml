@@ -13,3 +13,5 @@ spec:
   selector:
     app: go-web-app
   type: ClusterIP
+
+# For me service was not accessible through ClusterIp i had used NodePort in the last line
