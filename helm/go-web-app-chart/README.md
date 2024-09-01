@@ -14,9 +14,10 @@ update the files according to our requirement, in our case add deployment.yaml s
 and update the files accordingly as present in the folders in this repository
 ## After updating the files
 ```
-heml install go-web-app ./go-web-app-chart
-Our files has been deployed
+helm install go-web-app ./go-web-app-chart
 ```
+Our files has been deployed
+
 ## How to unistall helm
 ```
 helm uninstall go-web-app
